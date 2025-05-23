@@ -10,7 +10,7 @@ app.use(cors());
 
 // API endpoint
 app.get('/api/message', (req, res) => {
-    res.json({ message: 'Hello World from Backend!' });
+    res.json({ message: 'Hello World from Backend server!' });
 });
 
 // Serve static files from the React app in production
